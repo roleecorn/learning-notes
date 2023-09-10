@@ -1,2 +1,2 @@
 # learning-notes
-學習筆記
+python中一些可能會用到但是不好記憶的指令
