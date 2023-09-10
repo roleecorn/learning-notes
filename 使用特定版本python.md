@@ -7,7 +7,7 @@
 尋找標示為embeddable package的檔案，注意python版本可能會與系統有相容性問題，解壓縮後即可得到python本體，為了避免混亂可以將python.exe重新命名，這不會影響執行
 
 ## Step 2 安裝pip
-下載 [get-pip.py](https://bootstrap.pypa.io/get-pip.py)，在embed-python目錄下使用新的python執行
+下載 [get-pip.py](./src/get-pip.py)，在embed-python目錄下使用新的python執行
 
 ## Step 3 修改路徑
 `pythonxx._pth`檔案末尾記述了該python獨有的路徑，在末尾加上希望保留的路徑。
